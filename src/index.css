@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.neon-logo {
+    font-size: x-large;
+    color: #fff;
+    text-shadow:
+        0 0 5px #ff0000,
+            0 0 10px #ff0000,
+            0 0 20px #ff0000,
+            0 0 30px #ff4500,
+            0 0 40px #ff4500,
+            0 0 50px #ff4500,
+            0 0 60px #ff4500;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playwrite AR", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.neon-text {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bona Nova SC", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.greet{
+    font-family: "Playwrite AT", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size:xx-large;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .page {
+        margin: 0 auto;
+    }
+    .card {
+        width: 100%;
+        display: block;
+    }
+    .form{
+        width: 100%;
+        display: block;
+    }
+    .greet{
+        font-size: x-large;
+    }
+}
+
+.title{
+        font-family: "Zilla Slab", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: xx-large;
+            font-style: normal;
+}
