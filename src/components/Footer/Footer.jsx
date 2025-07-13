@@ -13,9 +13,9 @@ function Footer() {
                                 <Logo width="100px" />
                             </div>
                             <div>
-                                <p className="text-sm text-gray-600 mt-20">
+                                {/* <p className="text-sm text-gray-600 mt-20">
                                   Crafted by <a href="https://github.com/ShanirajKorake" className="text-blue-50">Shaniraj korake</a> 
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>

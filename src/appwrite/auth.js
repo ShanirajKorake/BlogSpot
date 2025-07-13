@@ -55,4 +55,3 @@ export class AuthServices{
 
 const authServices = new AuthServices();
 export default authServices;
-

@@ -32,6 +32,7 @@ const Home = () => {
                 const response = await services.getPosts();
                 if (response && response.documents) {
                     setPosts(response.documents);
+                    console.log(response.documents);
                 }
             } catch (err) {
                 console.error('Error fetching posts:', err);
