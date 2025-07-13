@@ -120,7 +120,7 @@ class Services{
     }
 
     getFilePreV(fileId){
-        return this.bucket.getFilePreview(
+        return this.bucket.getFileView(
             conf.appwriteBucketID,
             fileId
         )
